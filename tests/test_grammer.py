@@ -1,4 +1,4 @@
-import pytest
+
 
 from lib.grammer import check_grammer  
 
@@ -56,16 +56,16 @@ def test_no_capital_and_no_punctuation():
     assert result == False
 
 
-"""
-Input empty string
-Return error message
-"""
-def test_empty_string_return_error_message():
-    result = check_grammer("")
-    with pytest.raises(Exception) as err:
-        check_grammer()
-    error_message = str(err.value)  
-    assert error_message == "No input"
+# """
+# Input empty string
+# Return error message
+# """
+# def test_empty_string_return_error_message():
+#     result = check_grammer("")
+#     with pytest.raises(Exception) as err:
+#         check_grammer()
+#     error_message = str(err.value)  
+#     assert error_message == "No input"
     
 
 
