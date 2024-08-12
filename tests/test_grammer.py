@@ -56,6 +56,9 @@ def test_no_capital_and_no_punctuation():
     assert result == False
 
 
+
+
+
 # """
 # Input empty string
 # Return error message
@@ -69,12 +72,12 @@ def test_no_capital_and_no_punctuation():
     
 
 
-"""
-Input two sentence string with valid criteria
-Returns True
+# """
+# Input two sentence string with valid criteria
+# Returns True
 
-def test__two_sentences_with_valid_criteria():
-    result = check_grammer("Hello everyone. is it me?")
-    assert result == True
-"""
+# def test__two_sentences_with_valid_criteria():
+#     result = check_grammer("Hello everyone. is it me?")
+#     assert result == True
+# """
 # refactor code
